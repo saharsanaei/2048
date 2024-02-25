@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #eee4da;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    color: #776e65;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.back {
+    background-color: #bbada0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+h3 {
+    color: #eee4da;
+
+}
+
+#player-name {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button[type="submit"] , button[type="button"]{
+    padding: 10px 20px;
+    background-color: #776e65;
+    border: none;
+    border-radius: 5px;
+    color: #eee4da;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover , button[type="button"]:hover{
+    background-color: #062d3d;
+}
+
+button[type="submit"]:focus , button[type="button"]:focus{
+    outline: none;
+}
+
+@media (min-width: 992px) {
+
+    .container {
+      max-width: 960px;
+    }
+  
+    h1 {
+      font-size: 36px;
+    }  
+    
+  }
