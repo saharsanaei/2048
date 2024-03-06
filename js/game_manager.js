@@ -316,3 +316,10 @@ GameManager.prototype.tileMatchesAvailable = function () {
 GameManager.prototype.positionsEqual = function (first, second) {
   return first.x === second.x && first.y === second.y;
 };
+
+  document.querySelector('a[type="restart"]').addEventListener('click', goToLeaderboard);
+  
+  function goToLeaderboard(event) {
+      event.preventDefault();
+      window.location.href = 'leaderboard.html';
+  }
